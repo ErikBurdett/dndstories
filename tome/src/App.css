@@ -1,38 +1,79 @@
-.App {
-  text-align: center;
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'PT Sans', sans-serif;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.home,
+.podcast,
+.tome,
+.stories,
+.sign-up,
+.sign-in {
   display: flex;
-  flex-direction: column;
+  height: 90vh;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  font-size: 3rem;
+}
+
+.podcast {
+  background-image: url('https://photos.smugmug.com/photos/i-qjT64nb/0/5b9966b1/X3/i-qjT64nb-X3.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+  font-size: 100px;
+}
+
+.stories {
+  background-image: url('https://photos.smugmug.com/photos/i-qjT64nb/0/5b9966b1/X3/i-qjT64nb-X3.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+  font-size: 100px;
+
+}
+.tome {
+  background-image: url('https://photos.smugmug.com/Bad-Film/i-KFFrXbx/0/25f7ce34/XL/36706560185-XL.jpg');
+  background-position: center;
+  background-size: fill;
+  background-repeat: no-repeat;
+  color: #fff;
+  font-size: 100px;
+}
+
+.sign-up {
+  background-image: url('https://photos.smugmug.com/Bad-Film/i-KFFrXbx/0/25f7ce34/XL/36706560185-XL.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+  font-size: 100px;
+  
+}
+
+.sign-up, .button-text, a{
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.sign-in {
+  background-image: url('https://photos.smugmug.com/Bad-Film/i-KFFrXbx/0/25f7ce34/XL/36706560185-XL.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+  font-size: 100px;
+  
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.sign-in, .button-text, a{
+  color: white;
 }
+
+a:hover{
+  color:blue;
+}
+
